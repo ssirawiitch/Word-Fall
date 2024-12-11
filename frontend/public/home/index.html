@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME PAGE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="head">
+    <h1 >Party!</h1>
+  </div>
+  <div class="container">
+    <div  class="left-side">
+      <div id="box1">
+        <h1>Create Party</h1>
+        <image id="img1"
+          src="image/friend.png"
+          width="350px"
+          height="350px"
+        ></image>
+        <button class="createbut" onclick="window.location.href='../mode/index.html';">Let's play!</button>
+      </div>
+    </div>
+    <div class="right-side">
+      <div id="box2">
+        <h1> Join Party</h1>
+        <image id="img2"
+          src="image/magnifier.png"
+          width="350px"
+          height="350px"
+        ></image>
+        <form>
+          <input id="roomcode" type="text" autocomplete="off" class="roomcode" placeholder="Enter Room code:"><br>
+          <!-- <input type="submit" value="Join" class="submit"> -->
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
